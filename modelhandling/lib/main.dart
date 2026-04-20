@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:modelhandling/screen/chat_screen.dart';
 import 'package:modelhandling/screen/product_screen.dart';
 import 'package:modelhandling/screen/student_list_screen.dart';
 import 'package:modelhandling/screen/student_screen%20(2).dart';
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
       ),
-      home: StudentPage(),
+      home: ChatPage(username: 'paul',),
     );
 
   }
